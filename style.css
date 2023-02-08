@@ -2,19 +2,21 @@
   margin: 0px;
   padding: 0px;
 }
-.cal{
+
+.cal {
   margin: 50px;
   border: 2px solid #0b0c0b;
   padding: 20px;
-  width:fit-content;
+  width: fit-content;
   border-radius: 20px;
   background-color: #8dc6ff;
 }
+
 p {
   border: 2px solid #0b0c0b;
   padding: 10px 10px;
   width: 282px;
-  height:40px;
+  height: 40px;
   font-size: 25px;
   text-align: right;
   border-radius: 5px;
@@ -24,7 +26,8 @@ p {
   float: right;
   background-color: #e4f1fe;
 }
-.btn-fun{
+
+.btn-fun {
   background-color: #f96d00;
   font-family: 'Montserrat', sans-serif;
   color: rgb(20, 18, 18);
@@ -40,7 +43,8 @@ p {
   height: 30px;
   font-weight: bold;
 }
-.btn-num{
+
+.btn-num {
   background-color: #ff847c;
   font-family: 'Montserrat', sans-serif;
   color: rgb(20, 18, 18);
@@ -56,7 +60,8 @@ p {
   height: 30px;
   font-weight: bold;
 }
-.btn-operator{
+
+.btn-operator {
   font-family: 'Montserrat', sans-serif;
   background-color: #e84a5f;
   color: rgb(20, 18, 18);
@@ -72,35 +77,40 @@ p {
   height: 30px;
   font-weight: bold;
 }
-.drop{
-  margin: 10px 10px 10px 0px;  
+
+.drop {
+  margin: 10px 10px 10px 0px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  width:120px;
+  width: 120px;
   height: 30px;
   border-radius: 5px;
 }
-.btn-fun:active{
+
+.btn-fun:active {
   background-color: #555555;
   color: white;
 }
-.btn-num:active{
+
+.btn-num:active {
   background-color: #555555;
   color: white;
 }
-.btn-operator:active{
+
+.btn-operator:active {
   background-color: #555555;
   color: white;
 }
-.demo{
+
+.demo {
   margin: 10px 10px;
   border: none;
-  background-color:white ;
+  background-color: white;
 }
-.btn-m{
+
+.btn-m {
   margin: 5px 18px;
   font-family: 'Montserrat', sans-serif;
   border: none;
   background-color: #8dc6ff;
 }
-
