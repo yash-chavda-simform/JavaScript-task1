@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class="cal">
+    <p id="display">0</p>
+    <div>
+      <!-- <button class="btn-m">MC</button>
+      <button class="btn-m">MR</button>
+      <button class="btn-m">M+</button>
+      <button class="btn-m">M-</button> 
+      <button class="btn-m">MS</button> -->
+    </div>
+    <div class="dropdown">
+      <select name="dropdown1" id="trigonometry" class="drop" onchange="trigonometryy()">
+        <option value="sine" selected>Trigonometry</option>
+        <option value="sine">sin</option>
+        <option value="cos">cos</option>
+        <option value="tan">tan</option>
+        <option value="sinein">sinInverse</option>
+        <option value="cosin">cosInverse</option>
+        <option value="tanin">tanInverse</option>
+      </select>
+      <select name="dropdown2" id="function" class="drop">
+        <option value="rigatoni">function</option>
+        <option value="dave">function1</option>
+        <option value="pumpernickel">function2</option>
+        <option value="reeses">function3</option>
+      </select>
+    </div>
+    <button class="btn-fun" onclick="pi()">2<sup>nd</sup></button>
+    <button class="btn-operator" onclick="pi()">PI</button>
+    <button class="btn-operator" onclick="">e</button>
+    <button class="btn-operator" onclick="clearr()">C</button>
+    <button class="btn-operator" onclick="remove()"><i class="fa-solid fa-delete-left"></i></button><br>
+    <button class="btn-fun" onclick="squares()">x<sup>2</sup></button>
+    <button class="btn-operator" onclick="divx()">1/x</button>
+    <button class="btn-operator" onclick="modex()">|x|</button>
+    <button class="btn-operator" onclick="">exp</button>
+    <button class="btn-operator" onclick="modulo()"><i class="fa-solid fa-percent"></i></button><br>
+    <button class="btn-fun" onclick="sqrt2()"><i class="fa-sharp fa-solid fa-square-root-variable"></i></button>
+    <button class="btn-operator" onclick="bracket1()">(</button>
+    <button class="btn-operator" onclick="bracket2()">)</button>
+    <button class="btn-operator" onclick="fact()">n!</button>
+    <button class="btn-operator" onclick="div()"><i class="fa-solid fa-divide"></i></button><br>
+
+    <button class="btn-fun" onclick="raisr()">x<sup>y</sup></button>
+    <button class="btn-num" onclick="seven()">7</button>
+    <button class="btn-num" onclick="eight()">8</button>
+    <button class="btn-num" onclick="nine()">9</button>
+    <button class="btn-operator" onclick="mul()">x</button><br>
+    <button class="btn-fun" onclick="tenr()">10<sup>x</sup></button>
+    <button class="btn-num" onclick="four()">4</button>
+    <button class="btn-num" onclick="five()">5</button>
+    <button class="btn-num" onclick="six()">6</button>
+    <button class="btn-operator" onclick="sub()"><i class="fa-solid fa-minus"></i></button><br>
+    <button class="btn-fun" onclick="log()">log</button>
+    <button class="btn-num" onclick="one()">1</button>
+    <button class="btn-num" onclick="two()">2</button>
+    <button class="btn-num" onclick="three()">3</button>
+    <button class="btn-operator" onclick="add()"><i class="fa-solid fa-plus"></i></button><br>
+    <button class="btn-fun" onclick="ln()">ln</button>
+    <button class="btn-operator" onclick="convert()">+/-</button>
+    <button class="btn-num" onclick="zero()">0</button>
+    <button class="btn-operator" onclick="point()">.</button>
+    <button class="btn-operator" onclick="ans()"><i class="fa-solid fa-equals"></i></button><br>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
